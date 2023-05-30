@@ -63,22 +63,3 @@ export const App = () => {
     </>
   );
 };
-
-// export const App = () => {
-//   return (
-//     <div>
-//       <ul>
-//         <li>
-//           <NavLink to="/">HomePage</NavLink>
-//         </li>
-//         <li>
-//           <NavLink to="/news">NewsPage</NavLink>
-//         </li>
-//       </ul>
-//       <Routes>
-//         <Route path="/" element={<div>HomePage</div>} />
-//         <Route path="/news" element={<div>NewsPage</div>} />
-//       </Routes>
-//     </div>
-//   );
-// };
